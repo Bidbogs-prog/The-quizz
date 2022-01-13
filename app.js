@@ -40,7 +40,7 @@ form.addEventListener('submit', e => {
         } else {
             output++;
         }
-    }, 10)
+    }, 30)
 
     if (score >= 50){
         result.classList.remove('d-none');
